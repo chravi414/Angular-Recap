@@ -1,0 +1,8 @@
+<h3> Add Person</h3>
+
+<form [formGroup]="personForm" (ngSubmit)="addPerson()">
+    <p>Name : <input type="text" formControlName="name" name="name" /></p>
+    <p>City : <input type="text" formControlName="city" name="city" /></p>
+    <p>Mobile : <input type="text" formControlName="mobile" name="mobile" /></p>
+    <button>Add Person</button>
+</form>

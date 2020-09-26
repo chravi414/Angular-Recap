@@ -1,0 +1,7 @@
+<h3> Add Country</h3>
+<form [formGroup]="countryForm" (ngSubmit)="addCountry()">
+    <p>Name : <input type="text" name="name" formControlName="name" /></p>
+    <p>Capital : <input type="text" name="capital" formControlName="capital" /></p>
+    <p>Currency : <input type="text" name="currency" formControlName="currency" /></p>
+    <button>Add Country</button>
+</form>
